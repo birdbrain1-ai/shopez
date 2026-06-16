@@ -44,16 +44,7 @@ export default function Login({ type }) {
     }, 500);
   };
 
-  const handleDemoFill = (role) => {
-    if (role === 'admin') {
-      setEmail('admin@shopez.com');
-      setPassword('admin123');
-    } else {
-      setEmail('user@shopez.com');
-      setPassword('user123');
-    }
-    setIsLoginView(true);
-  };
+
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 'calc(100vh - 200px)', padding: '2rem' }}>
@@ -144,28 +135,7 @@ export default function Login({ type }) {
           </span>
         </div>
 
-        {/* Quick Demo Login Box */}
-        <div style={{ marginTop: '2.5rem', borderTop: '1px solid var(--border-glass)', paddingTop: '1.5rem' }}>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-dark)', marginBottom: '0.75rem', textAlign: 'center', fontWeight: '500' }}>
-            TESTING CREDENTIALS (CLICK TO AUTO-FILL)
-          </p>
-          <div style={{ display: 'flex', gap: '1rem' }}>
-            <button 
-              className="btn-secondary" 
-              style={{ flex: 1, padding: '0.5rem', fontSize: '0.8rem', justifyContent: 'center' }}
-              onClick={() => handleDemoFill('admin')}
-            >
-              Demo Admin
-            </button>
-            <button 
-              className="btn-secondary" 
-              style={{ flex: 1, padding: '0.5rem', fontSize: '0.8rem', justifyContent: 'center' }}
-              onClick={() => handleDemoFill('user')}
-            >
-              Demo Customer
-            </button>
-          </div>
-        </div>
+
       </div>
     </div>
   );
