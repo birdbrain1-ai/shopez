@@ -1,0 +1,11 @@
+{
+  "name": "shopez-root",
+  "version": "1.0.0",
+  "description": "Root configuration for Shopez MERN Stack E-Commerce app",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "start-backend": "npm start --prefix backend",
+    "start-frontend": "npm run dev --prefix frontend",
+    "dev": "node run-all.js"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "shopez-frontend",
+  "version": "1.0.0",
+  "description": "Frontend UI for Shopez E-Commerce",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^8.0.16"
+  }
+}
