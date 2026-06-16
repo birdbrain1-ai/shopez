@@ -213,22 +213,22 @@ export default function AdminDashboard() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem', marginBottom: '3rem' }}>
             <div className="glass-panel" style={{ padding: '1.5rem', textAlign: 'center' }}>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Total Sales</p>
-              <h3 style={{ fontSize: '2.2rem', color: '#fff' }}>${stats.totalSales}</h3>
+              <h3 style={{ fontSize: '2.2rem' }}>${stats.totalSales}</h3>
               <div style={{ height: '4px', background: 'linear-gradient(90deg, var(--accent-cyan), var(--accent-purple))', borderRadius: '2px', marginTop: '1rem' }}></div>
             </div>
             <div className="glass-panel" style={{ padding: '1.5rem', textAlign: 'center' }}>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Total Orders</p>
-              <h3 style={{ fontSize: '2.2rem', color: '#fff' }}>{stats.ordersCount}</h3>
+              <h3 style={{ fontSize: '2.2rem' }}>{stats.ordersCount}</h3>
               <div style={{ height: '4px', background: 'var(--accent-purple)', borderRadius: '2px', marginTop: '1rem' }}></div>
             </div>
             <div className="glass-panel" style={{ padding: '1.5rem', textAlign: 'center' }}>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Products Seeded</p>
-              <h3 style={{ fontSize: '2.2rem', color: '#fff' }}>{stats.productsCount}</h3>
+              <h3 style={{ fontSize: '2.2rem' }}>{stats.productsCount}</h3>
               <div style={{ height: '4px', background: 'var(--accent-cyan)', borderRadius: '2px', marginTop: '1rem' }}></div>
             </div>
             <div className="glass-panel" style={{ padding: '1.5rem', textAlign: 'center' }}>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Total Users</p>
-              <h3 style={{ fontSize: '2.2rem', color: '#fff' }}>{stats.usersCount}</h3>
+              <h3 style={{ fontSize: '2.2rem' }}>{stats.usersCount}</h3>
               <div style={{ height: '4px', background: 'var(--accent-emerald)', borderRadius: '2px', marginTop: '1rem' }}></div>
             </div>
           </div>
